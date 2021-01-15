@@ -1,0 +1,26 @@
+{% extends "base.html" %}
+{% block title %}Homepage {% endblock %}
+{% block content %}
+<h1 class="text-center">Aminah Ahmed </h1>
+<h2>Profile </h2>
+<p> I am a recent graduate with a 1:1 in a Master’s degree in Aerospace Engineering.
+    I have a keen interest in emerging technologies, particularly in their use for the enhancement of everyday life.
+    It is for this reason; I would like to pursue a career in a pioneering company which challenges the status quo.
+    I am competent in using CAD software such as Solidworks and Ansys. I also have experience in Python and currently working on
+    developing my skills in web development.</p>
+
+<h2>Academic Background</h2>
+<p> UNIVERSITY OF CENTRAL LANCASHIRE 2016-2020
+    MEng (Hons) Aerospace Engineering: First Class
+</p>
+
+<h2>Hobbies/Interests</h2>
+<p> I have a range of hobbies. I am an avid baker and have experience working in a cake shop as a decorator.
+    I also enjoy spending time outdoors and walking the picturesque local routes.
+    I am somewhat of a zumba enthusiast and also partial to playing squash.
+</p>
+
+<img src="{{url_for('static', filename='image1.jpg')}}" class="img-fluid" alt="Responsive image" "/>
+
+
+{% endblock %}
